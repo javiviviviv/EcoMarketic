@@ -1,8 +1,7 @@
 package com.ecomarketic.project.ecomarketic.controller;
 
-import com.ecomarketic.project.ecomarketic.*;
 import com.ecomarketic.project.ecomarketic.model.Carrito;
-import com.ecomarketic.project.ecomarketic.services.CarritoService;
+import com.ecomarketic.project.ecomarketic.service.CarritoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

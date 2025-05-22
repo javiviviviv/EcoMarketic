@@ -1,4 +1,4 @@
-package com.ecomarketic.project.ecomarketic.services;
+package com.ecomarketic.project.ecomarketic.service;
 
 import com.ecomarketic.project.ecomarketic.model.Producto;
 import com.ecomarketic.project.ecomarketic.repository.ProductoRepository;

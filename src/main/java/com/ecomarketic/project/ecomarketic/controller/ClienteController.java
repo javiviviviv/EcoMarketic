@@ -1,7 +1,7 @@
 package com.ecomarketic.project.ecomarketic.controller;
 
 import com.ecomarketic.project.ecomarketic.model.Cliente;
-import com.ecomarketic.project.ecomarketic.services.ClienteService;
+import com.ecomarketic.project.ecomarketic.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

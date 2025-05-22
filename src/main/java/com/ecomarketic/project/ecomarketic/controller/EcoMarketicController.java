@@ -1,17 +1,11 @@
 package com.ecomarketic.project.ecomarketic.controller;
 
-import com.ecomarketic.project.ecomarketic.*;
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import java.util.Date;
 import com.ecomarketic.project.ecomarketic.model.Carrito;
 import com.ecomarketic.project.ecomarketic.model.Cliente;
 import com.ecomarketic.project.ecomarketic.model.Producto;
-import com.ecomarketic.project.ecomarketic.services.CarritoService;
-import com.ecomarketic.project.ecomarketic.services.ClienteService;
-import com.ecomarketic.project.ecomarketic.services.ProductoService;
+import com.ecomarketic.project.ecomarketic.service.CarritoService;
+import com.ecomarketic.project.ecomarketic.service.ClienteService;
+import com.ecomarketic.project.ecomarketic.service.ProductoService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
