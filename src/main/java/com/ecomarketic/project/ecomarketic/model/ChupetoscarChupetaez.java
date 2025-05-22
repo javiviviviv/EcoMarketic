@@ -1,0 +1,4 @@
+package com.ecomarketic.project.ecomarketic.model;
+
+public class ChupetoscarChupetaez {
+}
