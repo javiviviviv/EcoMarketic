@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  java_app:
+    container_name: java_app
+    image: em-java-app_1.0.0
+    build: .
+    ports:
+      - 8080:8080
+    environment:
+      - DATABASE_URL=jdbc:postgresql://db_ecomarketic:5432/db_ecomarketic
+      - DATABASE_USERNAME=postgres
+      - DATABASE_PASSWORD=alvarogay
+    depends_on:
+      - db_ecomarketic
+  db_ecomarketic:
+    container_name: db_ecomarketic
+    image: postgres:12
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: alvarogay
+      POSTGRES_DB: db_ecomarketic
+
